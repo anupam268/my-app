@@ -1,5 +1,5 @@
-import Home from "./HomeOriginal";
-import './HomeOriginal.css';
+import Home from "./Home";
+import './Home.css';
 
 function home() {
     return <div><Home /></div>;

@@ -8,14 +8,14 @@
 
 .home .div {
     background-color: #f5f6fa;
-    height: 1537px;
+    height: 3057px;
     overflow-x: hidden;
     position: relative;
     width: 1440px;
 }
 
-.home .overlap-group {
-    height: 151px;
+.home .overlap {
+    height: 651px;
     left: -1px;
     position: absolute;
     top: -1px;
@@ -24,7 +24,7 @@
 
 .home .navigation-top-bar {
     background-color: #ffffff;
-    height: 74px;
+    height: 146px;
     left: 0;
     position: absolute;
     top: 0;
@@ -42,6 +42,24 @@
     position: absolute;
     top: 19px;
     width: 147px;
+}
+
+.home .banner {
+    height: 580px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 71px;
+    width: 1440px;
+}
+
+.home .image {
+    height: 38px;
+    left: 1239px;
+    object-fit: cover;
+    position: absolute;
+    top: 17px;
+    width: 150px;
 }
 
 .home .navigation-top-bar-2 {
@@ -113,38 +131,12 @@
     width: fit-content;
 }
 
-.home .your-gateway-to-the {
-    color: #000000;
-    font-family: "Inter-Thin", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 50px;
-    letter-spacing: -0.91px;
-    line-height: normal;
+.home .overlap-group {
+    height: 500px;
+    left: 51px;
     position: absolute;
-    top: 403px;
-    width: 595px;
-}
-
-.home .span {
-    font-weight: 100;
-}
-
-.home .text-wrapper-4 {
-    font-family: "Inter-Regular", Helvetica;
-}
-
-.home .text-wrapper-5 {
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-}
-
-.home .overlap {
-    height: 608px;
-    left: 50px;
-    position: absolute;
-    top: 725px;
-    width: 1344px;
+    top: 823px;
+    width: 426px;
 }
 
 .home .element {
@@ -153,10 +145,10 @@
     flex-direction: column;
     gap: 8px;
     height: 500px;
-    left: 6px;
+    left: 0;
     padding: 8px;
     position: absolute;
-    top: 108px;
+    top: 0;
     width: 426px;
 }
 
@@ -172,6 +164,16 @@
     position: relative;
 }
 
+.home .image-2 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
 .home .body {
     align-self: stretch;
     color: #000000;
@@ -184,30 +186,78 @@
     position: relative;
 }
 
-.home .element-2 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.home .image-3 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .overlap-2 {
     height: 500px;
-    left: 462px;
-    padding: 8px;
+    left: 507px;
     position: absolute;
-    top: 108px;
+    top: 823px;
     width: 426px;
 }
 
-.home .element-3 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.home .image-4 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .image-5 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .overlap-3 {
     height: 500px;
-    left: 918px;
-    padding: 8px;
+    left: 963px;
     position: absolute;
-    top: 108px;
+    top: 823px;
     width: 426px;
+}
+
+.home .image-6 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .image-7 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .overlap-4 {
+    height: 60px;
+    left: 45px;
+    position: absolute;
+    top: 715px;
+    width: 1120px;
 }
 
 .home .p {
@@ -223,16 +273,311 @@
     width: 1120px;
 }
 
-.home .products-wrapper {
+.home .overlap-group-2 {
+    border-radius: 6px;
+    height: 44px;
+    left: 597px;
+    position: absolute;
+    top: 1348px;
+    width: 247px;
+}
+
+.home .frame-2 {
     align-items: center;
     background-color: #000000;
     border-radius: 6px;
     display: inline-flex;
     gap: 8px;
     justify-content: center;
-    left: 610px;
+    left: 0;
     overflow: hidden;
     padding: 12px 19px;
     position: absolute;
-    top: 1358px;
+    top: 0;
+}
+
+.home .more {
+    height: 18px;
+    position: relative;
+    width: 18px;
+}
+
+.home .element-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 500px;
+    left: 51px;
+    padding: 8px;
+    position: absolute;
+    top: 1555px;
+    width: 426px;
+}
+
+.home .image-8 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .overlap-5 {
+    height: 608px;
+    left: 45px;
+    position: absolute;
+    top: 2247px;
+    width: 1344px;
+}
+
+.home .element-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 500px;
+    left: 6px;
+    padding: 8px;
+    position: absolute;
+    top: 108px;
+    width: 426px;
+}
+
+.home .image-9 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .element-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 500px;
+    left: 462px;
+    padding: 8px;
+    position: absolute;
+    top: 108px;
+    width: 426px;
+}
+
+.home .image-10 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .element-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 500px;
+    left: 918px;
+    padding: 8px;
+    position: absolute;
+    top: 108px;
+    width: 426px;
+}
+
+.home .image-11 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .element-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 500px;
+    left: 507px;
+    padding: 8px;
+    position: absolute;
+    top: 1555px;
+    width: 426px;
+}
+
+.home .image-12 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .element-7 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 500px;
+    left: 963px;
+    padding: 8px;
+    position: absolute;
+    top: 1555px;
+    width: 426px;
+}
+
+.home .image-13 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    height: 224px;
+    position: relative;
+    width: 400px;
+}
+
+.home .text-wrapper-4 {
+    color: #1e1e1e;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 45px;
+    letter-spacing: -0.88px;
+    line-height: 60px;
+    position: absolute;
+    top: 1447px;
+    width: 1120px;
+}
+
+.home .frame-3 {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    left: 574px;
+    overflow: hidden;
+    padding: 12px 19px;
+    position: absolute;
+    top: 2080px;
+}
+
+.home .frame-4 {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    left: 592px;
+    overflow: hidden;
+    padding: 12px 19px;
+    position: absolute;
+    top: 2880px;
+}
+
+.home .go-to-home {
+    height: 24px !important;
+    left: 1347px !important;
+    position: absolute !important;
+    top: 1349px !important;
+    width: 24px !important;
+}
+
+.home .go-to-home-instance {
+    height: 24px !important;
+    left: 1347px !important;
+    position: absolute !important;
+    top: 2087px !important;
+    width: 24px !important;
+}
+
+.home .icon-instance-node {
+    height: 24px !important;
+    left: 1347px !important;
+    position: absolute !important;
+    top: 2887px !important;
+    width: 24px !important;
+}
+
+.banner {
+    background-image: url(./banner.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+    width: 1440px;
+}
+
+.banner .your-gateway-to-the {
+    color: #000000;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: -0.91px;
+    line-height: normal;
+    position: absolute;
+    top: 333px;
+    width: 595px;
+}
+
+.banner .text-wrapper {
+    font-weight: 100;
+}
+
+.banner .span {
+    font-family: "Inter-Regular", Helvetica;
+}
+
+.banner .text-wrapper-2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+}
+.banner {
+    background-image: url(./banner.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+    width: 1440px;
+}
+
+.banner .your-gateway-to-the {
+    color: #000000;
+    font-family: "Inter-Thin", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: -0.91px;
+    line-height: normal;
+    position: absolute;
+    top: 333px;
+    width: 595px;
+}
+
+.banner .text-wrapper {
+    font-weight: 100;
+}
+
+.banner .span {
+    font-family: "Inter-Regular", Helvetica;
+}
+
+.banner .text-wrapper-2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
 }
